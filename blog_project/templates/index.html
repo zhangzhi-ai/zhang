@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客系统</title>
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <div id="app">
+        <!-- Vue.js应用将在这里渲染 -->
+        <div style="text-align: center; padding: 50px;">
+            <h1>正在加载...</h1>
+            <p>如果长时间未加载，请检查前端服务是否启动</p>
+        </div>
+    </div>
+    
+    <!-- 开发环境下的Vue.js应用 -->
+    <script>
+        // 检查是否有Vue开发服务器
+        if (window.location.port === '8000') {
+            // 如果是Django开发服务器，重定向到Vue开发服务器
+            window.location.href = 'http://localhost:8080';
+        }
+    </script>
+</body>
+</html>

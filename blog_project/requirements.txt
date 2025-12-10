@@ -1,0 +1,9 @@
+Django==4.2.24
+mysqlclient==2.2.0
+Pillow==10.0.0
+django-cors-headers==4.3.1
+djangorestframework==3.14.0
+django-filter==23.3
+python-decouple==3.8
+redis==5.0.1
+celery==5.3.4
